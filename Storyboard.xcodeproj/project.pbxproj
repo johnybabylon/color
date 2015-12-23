@@ -14,6 +14,9 @@
 		29A6168F1C2AE3560096527D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A6168E1C2AE3560096527D /* Images.xcassets */; };
 		29A616921C2AE3560096527D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A616901C2AE3560096527D /* LaunchScreen.xib */; };
 		29A6169E1C2AE3560096527D /* StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A6169D1C2AE3560096527D /* StoryboardTests.m */; };
+		29A616A91C2AF4790096527D /* XYZColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A616A81C2AF4790096527D /* XYZColorViewController.m */; };
+		29A616AC1C2AFA9B0096527D /* XYZPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A616AB1C2AFA9B0096527D /* XYZPaletteViewController.m */; };
+		29A616AF1C2AFFC40096527D /* XYZColorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A616AE1C2AFFC40096527D /* XYZColorDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		29A616971C2AE3560096527D /* StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A6169C1C2AE3560096527D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A6169D1C2AE3560096527D /* StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTests.m; sourceTree = "<group>"; };
+		29A616A71C2AF4790096527D /* XYZColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZColorViewController.h; sourceTree = "<group>"; };
+		29A616A81C2AF4790096527D /* XYZColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZColorViewController.m; sourceTree = "<group>"; };
+		29A616AA1C2AFA9B0096527D /* XYZPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPaletteViewController.h; sourceTree = "<group>"; };
+		29A616AB1C2AFA9B0096527D /* XYZPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPaletteViewController.m; sourceTree = "<group>"; };
+		29A616AD1C2AFFC40096527D /* XYZColorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZColorDescription.h; sourceTree = "<group>"; };
+		29A616AE1C2AFFC40096527D /* XYZColorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZColorDescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				29A616881C2AE3560096527D /* ViewController.h */,
 				29A616891C2AE3560096527D /* ViewController.m */,
 				29A6168B1C2AE3560096527D /* Main.storyboard */,
+				29A616AA1C2AFA9B0096527D /* XYZPaletteViewController.h */,
+				29A616AB1C2AFA9B0096527D /* XYZPaletteViewController.m */,
+				29A616AD1C2AFFC40096527D /* XYZColorDescription.h */,
+				29A616AE1C2AFFC40096527D /* XYZColorDescription.m */,
+				29A616A71C2AF4790096527D /* XYZColorViewController.h */,
+				29A616A81C2AF4790096527D /* XYZColorViewController.m */,
 				29A6168E1C2AE3560096527D /* Images.xcassets */,
 				29A616901C2AE3560096527D /* LaunchScreen.xib */,
 				29A616811C2AE3560096527D /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A616A91C2AF4790096527D /* XYZColorViewController.m in Sources */,
 				29A6168A1C2AE3560096527D /* ViewController.m in Sources */,
 				29A616871C2AE3560096527D /* AppDelegate.m in Sources */,
+				29A616AC1C2AFA9B0096527D /* XYZPaletteViewController.m in Sources */,
+				29A616AF1C2AFFC40096527D /* XYZColorDescription.m in Sources */,
 				29A616841C2AE3560096527D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
